@@ -9,7 +9,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.mytaxi</groupId>
+	<groupId>br.com.gmcb</groupId>
 	<artifactId>oauth-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>oauth-server</name>

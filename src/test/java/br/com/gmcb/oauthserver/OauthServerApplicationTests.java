@@ -1,4 +1,4 @@
-package com.mytaxi.oauth;
+package br.com.gmcb.oauthserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
