@@ -44,9 +44,8 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter
     protected void configure(HttpSecurity httpSecurity) throws Exception
     {
 
-        httpSecurity
+        httpSecurity.headers().frameOptions().disable().and().authorizeRequests().antMatchers("/h2-console/**").permitAll().and()
             .authorizeRequests().antMatchers("/").permitAll().and()
-            .authorizeRequests().antMatchers("/console/**").permitAll() .and()
         .formLogin().
             loginPage("/oauth").permitAll()
         .and()
